@@ -1,0 +1,236 @@
+.autorization [data-style="inputText"] {
+    text-align: center;
+    margin:10px;
+    position: relative;
+    height: 48px;
+    font-family: 'Roboto';
+    color:#0054a6;
+    font-size: 14px;;;;;
+}
+.autorization [data-style="inputText"] input,
+.autorization [data-style="inputText"] input + label {
+    line-height: 24px;
+}
+.autorization [data-style="inputText"] input{
+    height: inherit;
+    color:#666;
+    font-size: inherit;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 3px;
+    border: 1px solid #0054a6;
+    outline: none;
+    text-align: center;
+}
+
+.autorization [data-style="inputText"] input + label {
+    position: absolute;
+    top: 50%;
+    margin-top:-.5em;
+    line-height:1em;
+    z-index:1;
+    left: 0;
+    right: 0;
+    display: block;
+    text-align: center;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    cursor: text;
+}
+.pretension__input--error {
+    border: 1px solid #ff0037;
+}
+
+.autorization [data-style="inputText"] input[disabled] {
+    background: #eee;
+    border: 1px solid #dbdbdb;
+}
+.autorization [data-style="inputText"] input:focus + label{
+    font-size: .7em;
+    top: 10px;
+}
+.autorization [data-style="inputText"] input.active + label{
+    font-size: .7em;
+    top: 10px;
+}
+
+
+
+
+[data-style="button"].data-style-button-autorization {
+    margin: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    stroke:#fff;
+    fill:#fff;
+}
+[data-style="button"].data-style-button-autorization button {
+    font-size: 1em;
+    font-weight: inherit;
+    color: inherit;
+    padding: 0 5px;
+    margin: 0;
+    border-radius: 3px;
+    background: #ff0037;
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+[data-style="button"].data-style-button-autorization button:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+[data-style="button"].data-style-button-autorization button:active {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+}
+[data-style="button"].data-style-button-autorization button > span{
+    padding: 0px 15px;
+    line-height: calc(1.61em * 2);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+@media screen and (max-width:450px) {
+    [data-style="button"].data-style-button-autorization button {
+        padding: 10px;
+    }
+    [data-style="button"].data-style-button-autorization button > span {
+        line-height: calc(1.61em);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.autorization {
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 4px 15px 0 rgba(0,0,0,0.15);
+    z-index: 20;
+    min-width:260px;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    padding: 10px;
+    font:400 16px/normal 'PT Sans';
+}
+
+.autorization:before {
+    content:'';
+    position: absolute;
+    top:0;
+
+}
+.autorization--upTringle {
+    display: block;
+    position: relative;
+    top: -17px;
+}
+.autorization--upTringle:before,
+.autorization--upTringle:after {
+    content:'';
+    display: block;
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    border:8px solid transparent;
+    border-top:0;
+}
+.autorization--upTringle:before {
+    border-bottom-color:#f2f2f2;
+    width:0;
+    top:-1px;
+}
+.autorization--upTringle:after {
+    border-bottom-color:#fff;
+    width:0;
+
+}
+
+
+.autorization-head {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px 10px 5px;
+}
+
+
+.autorization__buttons {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.autorization__buttonsContainer {
+    display: table-row;
+}
+.autorization__buttonsContainer > div {
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+[data-style="button"].data-style-button-autorization {
+    color: #333;
+}
+.autorization__buttonsContainer > div:nth-of-type(1) button {
+    background: #E0E0E0;
+    text-align: center;
+}
+
+.autorization__buttonsContainer > div:nth-of-type(2) button {
+    background: #0054a6;
+    color: #fff;
+}
+.autorization__buttonsContainer > div:nth-of-type(2) button {
+}
+.autorization-getPass {
+    text-align: center;
+    color:#0054a6;
+    font-size: .8em;
+}
+
+
+
+
+
